@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kontrolen panel</title>
+    </head>
+    <body>
+        <p>Одбери кој дел од домот сакаш да го посетиш:</p>
+        <ol>
+        <li><a href="#spalna"><strong>Спална</strong></a></li>
+        <li><a href="#dnevna"><strong>Дневна</strong></a></li>
+        <li><a href="#kujna"><strong>Кујна</strong></a></li> 
+        <li><a href="#gradina"><strong>Градина</strong></a> </li>
+        </ol>
+        <p>Дополнителни  информации:</p>
+        <p><a href="#pravila"><strong>Правила</strong></a></p>
+        <p><a href="#notifikacii"><strong>Нотификации</strong></a></p>
+        <hr>
+        <hr>
+<h2 id="spalna">Спална</h2>
+
+<p><strong>Термометар:</strong></p>
+<label>
+<input type="checkbox" name="Нотификација" value="Вклучено" checked disabled>
+Вклучено
+</label>
+<p><sup>Батерија:</sup>
+<input type="range" name="Батерија" value="90" disabled><sup>90%</sup>
+</p>
+<p>Температура:
+<input type="number" name="Температура" value="25" min="0" max="50" disabled>℃
+</p>
+
+
+<p><strong>Сензор за светло:</strong></p>
+<label>
+<input type="checkbox" name="Нотификација" value="Вклучено" checked disabled>
+Вклучено
+</label>
+<p><sup>Батерија:</sup>
+<input type="range" name="Батерија" value="40" disabled><sup>40%</sup>
+</p>
+
+<p>Светлина:</p>
+<input type="range" name="Светлина" value="70" min="0" max="100" disabled><sup>70</sup> <!-- za pogore da stoi 70 mnogu dolu stoese-->
+
+<p><strong>Детектор за чад:</strong></p>
+<label>
+<input type="checkbox" name="Нотификација" value="Вклучено" checked disabled>
+Вклучено
+</label>
+<p><sup>Батерија:</sup>
+<input type="range" name="Батерија" value="5" disabled><sup>5%</sup>
+</p>
+<select name="Чад">
+    <option selected>Нема чад</option>
+    <option>Има чад</option>
+</select>
+<h2 id="dnevna">Дневна</h2>
+
+<p><strong>Сензор за светло:</strong></p>
+<label>
+<input type="checkbox" name="Нотификација" value="Вклучено" checked disabled>
+Вклучено
+</label>
+<p><sup>Батерија:</sup>
+<input type="range" name="Батерија" value="90" disabled><sup>90%</sup>
+</p>
+<p>Сензор:</p>
+<input type="range" name="Сензор за светло" value="25" min="0" max="100" disabled><sup>25</sup>
+
+
+<p><strong>Температура:</strong></p>
+<label>
+<input type="checkbox" name="Нотификација" value="Вклучено" checked disabled>
+Вклучено
+</label>
+<p><sup>Батерија:</sup>
+<input type="range" name="Батерија" value="90" disabled><sup>90%</sup>
+</p>
+<p>Температура:
+<input type="number" name="Температура" value="20" min="0" max="50" disabled>℃
+</p>
+
+<p><strong>Детектор за чад:</strong></p>
+<label>
+<input type="checkbox" name="Нотификација" value="Вклучено" checked disabled>
+Вклучено
+</label>
+<p><sup>Батерија:</sup>
+<input type="range" name="Батерија" value="45" disabled><sup>45%</sup>
+</p>
+<select name="Чад">
+    <option>Нема чад</option>
+    <option selected>Има чад</option>
+</select>
+
+<h2 id="kujna">Кујна</h2>
+
+<p><strong>Термометар:</strong></p>
+<label>
+<input type="checkbox" name="Нотификација" value="Вклучено" checked disabled>
+Вклучено
+</label>
+<p><sup>Батерија:</sup>
+<input type="range" name="Батерија" value="50" disabled><sup>50%</sup>
+</p>
+<p>Температура:
+<input type="number" name="Температура" value="30" min="0" max="50" disabled>℃
+</p>
+<p><strong>Детектор за чад:</strong></p>
+<label>
+<input type="checkbox" name="Нотификација" value="Вклучено" checked disabled>
+Вклучено
+</label>
+<p><sup>Батерија:</sup>
+<input type="range" name="Батерија" value="71" disabled><sup>71%</sup>
+</p>
+<select name="Чад">
+    <option selected>Нема чад</option>
+    <option>Има чад</option>
+</select>
+<p><strong>Детектор за гас:</strong></p>
+<label>
+<input type="checkbox" name="Нотификација" value="Вклучено" checked disabled>
+Вклучено
+</label>
+<p><sup>Батерија:</sup>
+<input type="range" name="Батерија" value="100" disabled><sup>100%</sup>
+</p>
+<p>Сензор:</p>
+<input type="range" name="Детектор за гас" value="82" min="0" max="100" disabled><sup>82%</sup>
+
+<h2 id="gradina">Градина</h2>
+<p><strong>Термометар:</strong></p>
+<label>
+<input type="checkbox" name="Нотификација" value="Вклучено" checked disabled>
+Вклучено
+</label>
+<p><sup>Батерија:</sup>
+<input type="range" name="Батерија" value="50" disabled><sup>50%</sup>
+</p>
+<p>Температура:
+<input type="number" name="Температура" value="20" min="0" max="50"  disabled>℃
+</p>
+<p><strong>Сензор за детектирано движење:</strong></p>
+<label>
+<input type="checkbox" name="Нотификација" value="Вклучено" checked disabled>
+Вклучено
+</label>
+<p><sup>Батерија:</sup>
+<input type="range" name="Батерија" value="50" disabled><sup>50%</sup>
+</p>
+<p><select name="Движење">
+    <option>Нема движење</option>
+    <option selected>Има движење</option>
+</select>
+</p>
+<p><strong>Сензор за влажност на воздух:</strong></p>
+<label>
+<input type="checkbox" name="Нотификација" value="Вклучено" checked disabled>
+Вклучено
+</label>
+<p><sup>Батерија:</sup>
+<input type="range" name="Батерија" value="95" disabled><sup>95%</sup>
+</p>
+<input type="range" name="Влажност" value="49" min="0" max="100" disabled><sup>49% Влажност</sup>
+
+<h2 id="pravila">Правила:</h2>
+<ol>
+    <li>Температурата е нормална во опсег од 19℃ &lt; температура &lt; 23℃</li>
+    <li>Светлината е добра помеѓу 30 &lt; светло &lt; 90</li>
+    <li>Детекторот за гас ќе се пушти ако има над 10% детектиран гас</li>
+    <li>Доколку е детектиран чад, се испраќа нотификација</li>
+    <li>Нормална влажност е 30% &lt; влажност &lt; 50%</li>
+    <li>Батерија под 15% е ниска и ќе мора да се смени или полни</li>
+    <li>Доколку се забележи движење во градината,стасува нотификација</li>
+</ol>
+<h2 id="notifikacii">Нотификации:</h2>
+<details>
+    <summary><strong>Температура</strong></summary>
+    <p>Во спалната соба и во кујна температурата е поголема од нормалното!</p>
+</details>
+<details>
+    <summary><strong>Предупредување за батерија</strong></summary>
+    <p>Батеријата е слаба. Смени ја батеријата на сензорот за чад во спалната соба!</p>
+</details>
+<details>
+    <summary><strong>Сензор за светло</strong></summary>
+    <p>Светлината во дневната соба е под нормалното!</p>
+</details>
+<details>
+    <summary><strong>Чад</strong></summary>
+    <p>Детектиран чад во дневна соба.Евакуирајте ја просторијата!</p>
+</details>
+<details>
+    <summary><strong>Гас</strong></summary>
+    <p>Детектиран гас во кујна.Евакуирајте ја просторијата веднаш!!</p>
+</details>
+<details>
+    <summary><strong>Движење</strong></summary>
+    <p>Детектирано движење во градина!</p>
+</details>
+</body>
+</html>
+
