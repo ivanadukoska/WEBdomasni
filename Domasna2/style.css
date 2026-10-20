@@ -1,0 +1,58 @@
+body {
+    background-color: #e6ead4;
+    font-family: cursive;
+    margin: 2px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+h2{
+    color: palevioletred;
+    -webkit-text-stroke:1px darkblue;
+    font-size: 30px;
+    text-shadow: -4px 4px 6px dimgray;
+
+}
+ol{
+    font-family:cursive,Arial;
+    list-style:decimal; 
+    color:orchid;
+}
+#pravila {
+    text-decoration: none;
+    font-family:"Comic Sans MS",cursive;
+    color: rgb(108, 6, 83);
+    background-color:rgb(192, 192, 163);
+    margin-bottom: .5em;
+}
+#notifikacii {
+    text-decoration: none;
+    font-family:"Comic Sans MS",cursive;
+    color: rgb(108, 6, 83);
+    background-color: rgb(192, 192, 163);
+    margin-bottom: .5em;
+}
+p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+details{
+    font-family: cursive;
+    border: 5px goldenrod;
+    background-color: lightblue;
+    width: 1500px;
+}
+summary{
+    font-family: cursive;
+    color:darkcyan;
+}
+select{
+    display:inline-block;
+    margin:0;
+    padding: 6px;
+    color:aquamarine;
+    background-color:cadetblue;
+}
+label{
+    color:darkolivegreen;
+}
