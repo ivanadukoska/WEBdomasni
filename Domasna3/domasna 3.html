@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Формула 1</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1 id="eden">FORMULA 1: SINGAPORE GP</h1>
+        <form action="#">
+            <input id="clickbutton1" type="button" value="Start Race">
+            <input id="clickbutton2" type="button" value="Next Lap">
+            <input id="clickbutton3" type="button" value="Restart Race">
+        </form>
+        <p>Current lap <span id="currentLap">0</span> / 10</p>
+        <p>Race Status: <span id="raceStatus">Not Started</span></p>
+        <hr>
+        <table id="tabelce" border="3">
+            <caption id="naslov">F1 Starting Parameters</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Team</th>
+                    <th>Base speed</th>
+                    <th>Base strength</th>
+                    <th>Tire type</th>
+                </tr>
+            </thead>
+            <tbody id="listanavozaci">
+            </tbody>
+        </table>
+        <p id="tabelastoevotek"></p>
+        <p id="lapStatus"></p>
+        <script src="javascript.js"></script>
+    </body>
+</html>
