@@ -1,0 +1,427 @@
+body
+{
+    background-color:#c9f2c6;
+}
+.text
+{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.kraj
+{
+    background-color:lightblue;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+.jumbotron
+{
+    background-color:#64C4FF;
+    margin-bottom: 0;
+}
+#home
+{
+    font-family: cursive;
+    font-size: 30px;
+    background-color: #bfe7ea;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+}
+#destinations
+{
+    font-family: cursive;
+    text-decoration: bold;
+    font-size: xx-large;
+    color: #52634a;
+    text-decoration: underline;
+    text-align: center;
+}
+#gallery
+{
+    font-family: cursive;
+    color:green;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+#blog
+{
+    font-family: cursive;
+    text-decoration: bold;
+    font-size: xx-large;
+    color: #52634a;
+    text-decoration: underline;
+    text-align: center;
+
+}
+#survey
+{
+    font-family: cursive;
+    font-size: medium;
+    text-align: center;
+    font-size: 30px;
+    color:#52634a;
+    text-shadow: 2px 3px 4px #93977b;
+    background-color: rgb(252, 223, 185);
+    margin:0;
+    text-decoration: underline;
+    
+}
+.za_nas {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: #bfe7ea;
+}
+
+.paragraf {
+    width: 67%;
+    padding: 25px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    background-color: #bfe7ea;
+    position: relative;
+    height: 400px;
+}
+.tekst1
+{
+    position:absolute;
+    bottom: 10px;
+}
+
+.pocetna {
+    width: 55%;
+    height: 430px;
+    object-fit: cover;
+    display: block;
+    margin-top: -30px;
+}
+.sidnej
+{
+    width: 250px;
+    height: 250px;
+}
+.sidnej
+{
+    width: 250px;
+    height: 250px;
+}
+
+.newyork
+{
+    width: 250px;
+    height: 250px;
+}
+
+.pariz
+{
+    width: 250px;
+    height: 250px;
+}
+
+.rim
+{
+    width: 250px;
+    height: 250px;
+}
+
+.tokio
+{
+    width: 250px;
+    height: 250px;
+}
+
+.marinabay
+{
+    width: 250px;
+    height: 250px;
+}
+
+.dubai
+{
+    width: 250px;
+    height: 250px;
+}
+.komentar
+{
+    width: 350px;
+    height: 100px;
+    resize: none;
+    margin-left: 20px;
+}
+#anketa
+{
+    width: 60%;
+    height: 750px;
+    background-color: antiquewhite;
+
+}
+#anketa p,
+#anketa label
+{
+    margin-left: 20px;
+}
+.ip
+{
+    margin-left: 20px;
+}
+.mail
+{
+    margin-left: 20px;
+}
+.kopcee
+{
+    height: 25px;
+    width: 70%;
+    align-self:center;
+    margin:20px;
+}
+.anketaa
+{
+    width: 40%;
+    height: 750px;
+    object-fit: cover;
+    object-position:center;
+    display: block;
+    margin-top: 0;
+}
+#celo {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+@media (max-width: 750px) {
+    #celo {
+        flex-direction: column;
+    }
+
+    #anketa {
+        width: 100%;
+    }
+
+    .anketaa {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+
+#lista_destinacii
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;
+    scrollbar-color:#65ba65 #c9f2c6;
+}
+
+.karticka {
+    position: relative;
+    padding: 15px;
+    background-color: #9bd89b;
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px black;
+}
+
+.karticka button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+#najava 
+{
+    text-align: right;
+    right: 20px;
+    position: absolute;
+}
+.kopcenajava
+{
+    border-radius: 15px;
+}
+
+.kalk input
+{
+    margin-bottom: 10px;
+}
+.stilnakalk 
+{
+    margin-left: 20px;
+    text-decoration: underline;
+    text-align: center;
+    color: darkolivegreen;
+}
+.kalk
+{
+    margin:0 auto;
+    padding: 20px; 
+    text-align: center;
+    border: 3px solid cadetblue;
+    width: 300px;
+}
+
+
+
+#galerija
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #bfe7ea;
+    scrollbar-color: #65ba65 #c9f2c6;
+}
+
+#galerija div
+{
+    width: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #9bd89b;
+    border: 2px  cadetblue;
+    text-align: center;
+    cursor: pointer;
+}
+
+#galerija div:hover
+{
+    background-color: #c9f2c6;
+}
+
+#galerija img
+{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    display: block;
+}
+
+#galerija h3
+{
+    margin: 10px 0 0 0;
+    font-family: cursive;
+    font-size: 22px;
+    color: #52634a;
+}
+
+
+#cityGallery
+{
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(3, 3, 3, 0.7);
+}
+
+#cityGallery > div
+{
+    background-color: #c9f2c6;
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 3px solid cadetblue;
+}
+
+#zatvoriGalerija
+{
+    float: right;
+    font-size: 28px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #52634a;
+}
+
+#imeGrad
+{
+    font-family: cursive;
+    text-align: center;
+    text-decoration: underline;
+    color: #52634a;
+    margin-bottom: 20px;
+}
+
+#slikiGrad
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+#slikiGrad > div
+{
+    width: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    border: 2px solid cadetblue;
+    text-align: center;
+}
+
+#slikiGrad img
+{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    display: block;
+}
+
+#slikiGrad textarea
+{
+    width: 100%;
+    height: 60px;
+    resize: none;
+    margin-top: 10px;
+}
+
+#slikiGrad button
+{
+    margin: 5px 2px;
+}
+
+#blogKarticki {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+#blogKarticki .karticka {
+    width: 250px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#blogKarticki .karticka img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#blogKarticki .karticka h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#blogKarticki .karticka p {
+    text-align: left;
+}
